@@ -1,0 +1,1 @@
+This is a front-end landing page project built as part of a web development course. The layout and styling are based on a Figma design file, which replicates a professional, responsive, and visually appealing web page.
