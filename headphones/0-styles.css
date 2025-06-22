@@ -115,3 +115,62 @@ header {
     color: var(--color-text);
     margin: 4rem 15rem  ;
 }
+
+/*RESPONSIVE STYLES*/
+@media (max-width: 768px) {
+    .nav > ul {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+    .hero {
+        height: auto;
+        padding: var(--spacing-md);
+    }
+    .hero h1 {
+        font-size: var(--font-size-xl);
+    }
+    .hero p {
+        font-size: var(--font-size-sm);
+    }
+    .hero button {
+        font-size: var(--font-size-sm);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+    .hero-text {
+        font-size: var(--font-size-sm);
+        margin: 2rem 1rem;
+    }
+    .logo img {
+        height: 40px;
+    }
+    .nav > ul > li {
+        font-size: var(--font-size-sm);
+    }
+}
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: var(--font-size-lg);
+    }
+    .hero p {
+        font-size: var(--font-size-xs);
+    }
+    .hero button {
+        font-size: var(--font-size-xs);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+    .hero-text {
+        font-size: var(--font-size-xs);
+        margin: 1rem;
+    }
+    .logo img {
+        height: 30px;
+    }
+    .nav > ul > li {
+        font-size: var(--font-size-xs);
+    }
+    .nav > ul {
+        margin-right: 0;
+        padding: 0;
+    }
+}
